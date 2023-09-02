@@ -32,5 +32,7 @@ module.exports = {
     },
   },
   plugins: ['solid', '@typescript-eslint'],
-  rules: {},
+  rules: {
+    '@typescript-eslint/ban-ts-comment': 'off',
+  },
 }
