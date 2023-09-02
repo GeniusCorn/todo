@@ -1,30 +1,42 @@
-# SolidStart
+# Todo
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+![Preview](screenshots/preview.png)
 
-## Creating a project
+## Introduction
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+Welcome to the Todo App! This is a solid implementation of the Todo Application, which allows you to manage your tasks efficiently.
 
-# create a new project in my-app
-npm init solid@latest my-app
+## Features
+
+- Easy task input.
+- Reliable data storage.
+- Categorized task viewing.
+- User-friendly interface.
+
+## Install
+
+```sh
+# clone the project
+git clone https://github.com/GeniusCorn/todo.git
+
+# enter the project directory
+cd datagram
+
+# install dependency
+pnpm i
+
+# develop
+pnpm dev
+
+# build
+pnpm build
 ```
 
-## Developing
+## Maintainer
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[![@GeniusCorn](https://avatars.githubusercontent.com/u/12198452?s=150&v=4)](https://github.com/GeniusCorn)
+[@GeniusCorn](https://github.com/GeniusCorn)
 
-```bash
-npm run dev
+## License
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Solid apps are built with _adapters_, which optimize your project for deployment to different environments.
-
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify it in your `vite.config.js``.
+[MIT](license.md)
