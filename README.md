@@ -20,7 +20,7 @@ Welcome to the Todo App! This is a solid implementation of the Todo Application,
 git clone https://github.com/GeniusCorn/todo.git
 
 # enter the project directory
-cd datagram
+cd todo
 
 # install dependency
 pnpm i
