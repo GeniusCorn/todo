@@ -8,6 +8,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:solid/typescript',
+    '@unocss',
     'prettier',
   ],
   ignorePatterns: ['*.d.ts', '*.json', '*.md'],

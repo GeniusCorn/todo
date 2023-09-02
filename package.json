@@ -13,12 +13,16 @@
     "@solidjs/router": "^0.8.3",
     "solid-js": "^1.7.11",
     "solid-start": "^0.3.4",
-    "undici": "^5.23.0"
+    "undici": "^5.23.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.5.6",
+    "@iconify-json/material-symbols": "^1.1.57",
+    "@types/node": "^20.5.7",
+    "@types/uuid": "^9.0.3",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
+    "@unocss/eslint-config": "^0.55.4",
     "@unocss/preset-attributify": "^0.55.3",
     "@unocss/transformer-attributify-jsx": "^0.55.3",
     "esbuild": "^0.19.2",
